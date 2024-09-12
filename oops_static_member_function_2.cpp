@@ -18,8 +18,8 @@ class Customer{
 		}	
 		
 		static void acceStatic(){
-			cout<<total_customer<<endl;
-				cout<<total_balance<<endl;
+			cout<<"total customer :"<<total_customer<<endl;
+				cout<<"total balance :"<<total_balance<<endl;
 		}
 		void deposit(int amount){
 			if(amount>0){
@@ -58,8 +58,13 @@ int main(){
 	Customer A1("Rohit",1,1000);
 	Customer A2("Ajay",2,1000);
 	Customer A3("Mohan",3,1000);
+	Customer A4("Mohan",5,1000);
 	Customer::acceStatic();
-	A1.display_total();
+	A1.display();
+	A2.display();
+	A3.display();
+	A4.display();
+		A1.display_total();
 	
 	
 }
