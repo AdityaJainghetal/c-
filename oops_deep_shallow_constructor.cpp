@@ -15,11 +15,11 @@ class Game{
 				*(this->id)=id;      //parameterized constructor
 			}
 			
-		Game( const Game &obj){
+		Game(const Game &obj){
 			this->category=obj.category;
 			this->status=obj.status;
-			//this->id=obj.id;   //  shallow 
-			  this->id      =new int;
+//			this->id=obj.id;   //  shallow 
+			  this->id=new int;
 			*(this->id)=*obj.id;   //deep constructor
 		}
 		

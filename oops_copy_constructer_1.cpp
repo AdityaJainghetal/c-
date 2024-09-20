@@ -1,3 +1,21 @@
+//initializer list
+
+//1. parent constructure call
+//2. execution fast(initialized own data member)
+//3. initialized constant data memeber of own class
+//4. for  initialized refernce variable data memeber of own class
+
+
+
+//declare value 
+
+//const
+//refernce
+
+
+
+
+
 #include <iostream>
 using namespace std;
 
@@ -12,12 +30,6 @@ class Game{
 		void display(){
 			cout<<"this is "<<category<<endl;
 		}
-	
-	
-	
-	
-	
-	
 	
 };
 int main(){
